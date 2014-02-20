@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    }
+
+
+body {
+    color: #ff4a00;
+    }
+    
+    h2 { 
+        font-size: 24px;
+        color: #0021a5;
+        }
+        
+    p {
+        font-family: arial, helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        }
+        
+    img {
+        border: 5px solid #cccccc
+        margin: 0 5% 0 5% ; 
+        paddding: 1%; / * Trouble * / 
+        width: 90%; 
+        } 
+        

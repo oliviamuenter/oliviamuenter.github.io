@@ -41,7 +41,7 @@ header a {
     text-decoration: none;
     }
     
-header a:link {]
+header a:link {}
 header a:visited {}
 header a:hover { 
     color: #ffffff;

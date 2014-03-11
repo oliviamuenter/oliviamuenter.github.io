@@ -20,21 +20,35 @@ p {
 header { 
     font-family: sans-serif;
     color: #000000; 
-    height: 40000px; 
+    height: 400px;
+    float: right;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
     } 
     
 header h1 {
-    float: left;
+    float: right;
     font-family: sans-serif;
     color: #000000;
-    font-size: 70px;
-    font-weight: 400;
+    font-size: 60px;
+    padding-top: 1px;
+    padding-left: 10px;
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
     
 header nav { 
-    float: left;
-    margin-top: 12px
+    clear: both
     border: 4px solid black; 
+    margin-top: 45px;
+    font-size: 30px;
+    word-spacing: 20px;
+    padding-left: 10px;
+    
     }
     
 header a { 
@@ -56,11 +70,14 @@ header a:focus {}
 
 article {
     clear: both;
-    padding: 0 10 px 0 10px; 
+    padding-left: 10px;
+    padding-top: 25px;
 
     } 
  
     
 footer{ 
-    padding: 0 10 px 0 10px; 
+    padding-top: 100px; 
+    padding-bottom: 1px;
+    padding-left: 5px; 
     }

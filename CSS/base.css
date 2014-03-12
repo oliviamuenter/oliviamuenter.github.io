@@ -26,8 +26,8 @@ p {
 header { 
     font-family: sans-serif;
     color: #000000; 
-    height: 400px;
     float: right;
+    height: 40px;
     display: block;
     width: 100%;
     margin-top: 25px;
